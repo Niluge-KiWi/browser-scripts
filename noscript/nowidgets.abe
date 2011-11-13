@@ -1,0 +1,25 @@
+# Name:    Social Widget Blocker using NoScript ABE
+# Author:  Niluge_KiWi
+# Comment: Based on http://techliberation.com/2011/05/20/privacy-solutions-how-to-block-facebooks-like-button-and-other-social-widgets/
+
+## facebook
+Site .facebook.com .fbcdn.net facebook.net
+Accept from SELF
+Accept from .facebook.com .fbcdn.net facebook.net
+Deny INCLUSION
+
+## twitter
+Site .twitter.com
+Accept from SELF
+Accept from .twitter.com
+Deny INCLUSION
+
+## google
+### first accept recaptcha
+Site .google.com/recaptcha
+Accept from ALL
+### then refuse everything else
+Site .google.com googleapis.com
+Accept from SELF
+Accept from .google.com
+Deny INCLUSION
