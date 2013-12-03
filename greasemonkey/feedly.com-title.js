@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name       Title for cloud.feedly.com
-// @namespace  http://www.niluge-kiwi.info
-// @version    0.1
-// @description  Append "feedly" to page <title> for feedly.com
+// @name        Better title for feedly.com
+// @namespace   http://www.niluge-kiwi.info
+// @description Append "feedly" to page <title> for feedly.com
 // @include     https://feedly.com/*
-// @run-at         document-start
+// @version     0.2
+// @grant       none
 // ==/UserScript==
 
 (function(){
@@ -20,7 +20,7 @@ var appendFeedlyTitle = function() {
     if (!document.title.endsWith(suffix)) {
         document.title += suffix;
     }
-}
+};
 
 window.addEventListener("DOMTitleChanged", appendFeedlyTitle, false);
 
