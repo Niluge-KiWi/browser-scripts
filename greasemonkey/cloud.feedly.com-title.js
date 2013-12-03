@@ -2,8 +2,8 @@
 // @name       Title for cloud.feedly.com
 // @namespace  http://www.niluge-kiwi.info
 // @version    0.1
-// @description  Append "feedly" to page <title> for cloud.feedly.com
-// @include     http://cloud.feedly.com/*
+// @description  Append "feedly" to page <title> for feedly.com
+// @include     https://feedly.com/*
 // @run-at         document-start
 // ==/UserScript==
 
