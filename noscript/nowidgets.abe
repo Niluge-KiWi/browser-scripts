@@ -2,6 +2,10 @@
 # Author:  Niluge_KiWi
 # Comment: Based on http://techliberation.com/2011/05/20/privacy-solutions-how-to-block-facebooks-like-button-and-other-social-widgets/
 
+## accept (and anonymize) favicons (from google.com) from feedly.com pages
+Site https://www.google.com/s2/favicons
+Anonymize from feedly.com
+
 ## facebook
 Site .facebook.com .fbcdn.net facebook.net
 Accept from SELF
