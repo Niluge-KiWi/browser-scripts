@@ -1,0 +1,8 @@
+@-moz-document domain("feedly.com") {
+    .entryBody img[style] {
+        width: auto !important;
+        max-width: none !important;
+        height:  auto !important;
+        margin-left: calc((680px - 100%)/2);
+    }
+}
