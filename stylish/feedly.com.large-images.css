@@ -1,5 +1,8 @@
 @-moz-document domain("feedly.com") {
     .entryBody img[style] {
+        overflow: visible;
+    }
+    .entryBody img[style] {
         width: auto !important;
         max-width: none !important;
         height:  auto !important;
